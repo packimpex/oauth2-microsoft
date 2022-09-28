@@ -13,7 +13,7 @@ class Microsoft extends AbstractProvider
      *
      * @var array
      */
-    public $defaultScopes = ['wl.basic', 'wl.emails'];
+    public $defaultScopes = [];
 
     /**
      * Base url for authorization.
