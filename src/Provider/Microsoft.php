@@ -57,6 +57,22 @@ class Microsoft extends AbstractProvider
     }
 
     /**
+     * @param string $urlAccessToken
+     */
+    public function setUrlAccessToken(string $urlAccessToken)
+    {
+        $this->urlAccessToken = $urlAccessToken;
+    }
+
+    /**
+     * @param string $urlAuthorize
+     */
+    public function setUrlAuthorize(string $urlAuthorize)
+    {
+        $this->urlAuthorize = $urlAuthorize;
+    }
+
+    /**
      * Get default scopes
      *
      * @return array

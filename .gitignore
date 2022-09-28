@@ -3,3 +3,9 @@
 composer.phar
 composer.lock
 .DS_Store
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/oauth2-microsoft.iml
+/.idea/php.xml
+/.idea/phpunit.xml
+/.idea/vcs.xml
